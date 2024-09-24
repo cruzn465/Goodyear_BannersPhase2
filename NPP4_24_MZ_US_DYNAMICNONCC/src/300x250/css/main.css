@@ -1,0 +1,136 @@
+body { margin:0px 0px; padding:0px; } 
+
+* { 
+	box-sizing: Border-box;
+	-webkit-backface-visibility: hidden;
+  	-webkit-perspective: 1000px; 
+	-ms-overflow-style: hidden;
+}  
+
+#container{
+	background-color:white;
+	position:absolute;
+	overflow:hidden;
+	border: 1px solid black;
+} 
+
+.sprite {
+	position:absolute;
+	background-repeat:no-repeat;
+}
+
+#c1_2x {
+	left:6px;
+	top:57px;
+	width:174px;
+	height:117px;
+	background-image:url(../img/c1_2x.png);
+	background-size:174px 117px;
+}
+
+#c2_2x {
+	left:13px;
+	top:59px;
+	width:162px;
+	height:135px;
+	background-image:url(../img/c2_2x.png);
+	background-size:162px 135px;
+}
+
+#cta1_2x {
+	left:9px;
+	top:218px;
+	width:81px;
+	height:26px;
+	background-image:url(../img/cta1_2x.png);
+	background-size:81px 26px;
+}
+
+#cta2_2x {
+	left:99px;
+	top:218px;
+	width:80px;
+	height:26px;
+	background-image:url(../img/cta2_2x.png);
+	background-size:80px 26px;
+}
+
+#date_2x {
+	left:11px;
+	top:8px;
+	width:170px;
+	height:12px;
+	background-image:url(../img/date_2x.png);
+	background-size:170px 12px;
+}
+
+#side_bg1_2x {
+	left:191px;
+	top:0px;
+	width:109px;
+	height:250px;
+	background-image:url(../img/side_bg1_2x.png);
+	background-size:109px 250px;
+}
+
+#wingft_2x {
+	left:190px;
+	top:0px;
+	width:109px;
+	height:81px;
+	background-image:url(../img/wingft_2x.png);
+	background-size:109px 81px;
+}
+
+#bg1_2x {
+	left:0px;
+	top:0px;
+	width:300px;
+	height:250px;
+	background-image:url(../img/bg1_2x.jpg);
+	background-size:300px 250px;
+}
+
+#bg2_2x {
+	left:0px;
+	top:0px;
+	width:300px;
+	height:250px;
+	background-image:url(../img/bg2_2x.jpg);
+	background-size:300px 250px;
+}
+
+#box {
+	overflow: hidden;
+	width:191px;
+	height:210px;
+	/* left: 6px;
+	top: 57px; */
+}
+
+#c3_2x {
+	left:12px;
+	top:46px;
+	width:164px;
+	height:161px;
+	background-image:url(../img/c3_2x.png);
+	background-size:164px 161px;
+}
+
+#side_bg2_2x {
+	left:191px;
+	top:0px;
+	width:109px;
+	height:250px;
+	background-image:url(../img/side_bg2_2x.png);
+	background-size:109px 250px;
+}
+
+#side_bg3_2x {
+	left:191px;
+	top:0px;
+	width:109px;
+	height:250px;
+	background-image:url(../img/side_bg3_2x.png);
+	background-size:109px 250px;
+}
